@@ -1,0 +1,42 @@
+#fundo{
+    background-image: url("../images/background.jpg");
+    padding: 40px;
+}
+
+#conteudo imagem, nome, recompensa{
+    padding: 0;
+}
+#imagem{
+    bottom: 11%;
+    right: 10%;
+    position:absolute;
+    width: 300px;
+}
+
+#conteudo{
+    background-color: rgba(217, 217, 217, 1);
+    font-size: 27px;
+    padding: 20px;
+    padding-right: 400px;
+    padding-bottom: 75px;
+    display:block;
+    margin-right: 200px;
+    width: 800px;
+    text-align: justify;
+    border-radius: 15px;
+    line-height: 37px;
+}
+
+#recompensa{
+    color: rgba(120, 25, 30, 1);
+    font-size: larger;
+}
+
+#nome{
+    color: rgba(63, 19, 21, 1);
+    font-size: 40px;
+    display: flex;
+    position: absolute;
+    bottom: -10px;
+    right: 17%;
+}

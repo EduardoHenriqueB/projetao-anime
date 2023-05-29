@@ -1,0 +1,68 @@
+#fundo {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('../images/wallpaperCadastro.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #formulario {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20px;
+    padding-bottom: 100px;
+    color: white;
+  }
+  
+  #imagem {
+    position: absolute;
+    width: 357px;
+    left: 0%;
+    top: 50%;
+  }
+  
+  #formulario input {
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 450px;
+    height: 50px;
+    background-color: rgba(217, 217, 217, 1);
+  }
+  
+  #formulario label {
+    margin-bottom: -10px;
+    margin-right: -50px;
+  }
+  
+  #formulario input,
+  label {
+    font-size: medium;
+  }
+  
+  #formulario button {
+    background-color: rgba(118, 47, 50, 1);
+    font-size: medium;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 145px;
+    color: white;
+    transition: transform 0.3s;
+    border: none;
+  }
+  
+  #formulario button:hover {
+    transform: scale(1.1);
+  }
+
+  *{
+    overflow: hidden;
+  }
+  
