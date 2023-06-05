@@ -1,0 +1,85 @@
+#comentario {
+    padding: 5vh;
+    padding-bottom: 2.5vh;
+    padding-top: 3vh;
+    background-color: rgb(250, 202, 163);
+    display: flex;
+    position: absolute;
+    top: 102vh;
+    right: 65vh;
+    border-radius: 20px;
+  }
+  
+  #caixa {
+    font-size: 2.5vh;
+    width: 105vh;
+    height: 10vh;
+    display: flex;
+    border-radius: 10px;
+    border-color: rgb(194, 155, 136);
+  }
+  
+  #imagem {
+    height: 8vh;
+    width: 8vh;
+    display: flex;
+    position: relative;
+    bottom: -1vh;
+    left: 95vh;
+  }
+  
+  .saida {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -55vh;
+    bottom: 3vh;
+    left: 28vh;
+    padding: 2vh;
+    position: relative;
+    background-color: rgb(196, 144, 118);
+    border-radius: 1vh;
+    font-size: 2.5vh;
+    width: 105vh;
+  }
+  
+  .saida li {
+    display: flex;
+    text-align: justify;
+    font-size: 25px;
+    position: relative;
+    margin-bottom: 2vh;
+  }
+  
+  .perfil {
+    width: 10vh;
+    height: 10vh;
+    padding-right: 2vh;
+  }
+  
+  .comentario-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .comentario-item .perfil {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .comentario-item span {
+    font-size: 16px;
+  }
+  
+  .apagar {
+    position:absolute;
+    width: 3vh;
+    height: 3vh;
+    top: 3vh;
+    right: -90vh;
+    transform: translateY(-50%);
+  }
+  

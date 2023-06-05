@@ -1,0 +1,42 @@
+#conteudo {
+    background-color: rgba(217, 217, 217, 1);
+    width: 150vh;
+    height: 95vh; 
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+p{
+    font-size: 4vh;
+    text-align: justify;
+    display: flex;
+}
+
+#imagemDiv{
+    padding: 2%;
+}
+
+img{
+    width: 85vh;
+    height: 85vh;
+}
+
+h1{
+    padding: 0;
+    display: flex;
+    position:absolute;
+    top:92vh;
+    right: 49vh;
+    color: rgba(63, 19, 21, 1);
+}
+
+#briga{
+    width: 25vh;
+    display: flex;
+    position: relative;
+    left: 155vh;
+    top: 3vh;
+    
+}
